@@ -1,0 +1,14 @@
+TEST(eq_{{_NOM_FICHIER_}}, {{_NOM_FICHIER_}}_V{{_VERSION_}}_EQUIP_{{_NUMERO_FONCTION_}}_{{_NUMERO_CAS_}})
+{
+	T_PAR_CompteRendu ret_PARTEST_ChargerFichier = PAR_ERROR;
+	T_PAR_CompteRendu ret_{{_NOM_FONCTION_}} = PAR_ERROR;
+	{{_DECLARATION_PARAMETRES_}}
+
+	ret_PARTEST_ChargerFichier = PARTEST_ChargerFichier((T_UInt8 *){{_TYPE_FICHIER_BINAIRE_}}, (T_UInt8* )"V{{_VERSION_}}");
+	ret_{{_NOM_FONCTION_}} = {{_NOM_FONCTION_}}({{_PARAMETRES_}});
+
+	PARTEST_DechargerFichier();
+	
+	EXPECT_EQ(PAR_OK, ret_PARTEST_ChargerFichier);
+{{_VALIDATION_SORTIE_}}
+}

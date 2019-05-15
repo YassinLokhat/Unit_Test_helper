@@ -1,0 +1,24 @@
+FDJ¤J11¤TYPE_FIC_FDJ¤2¤1¤FDI_Initialiser¤int a;
+char * b;¤&a
+b¤0,a
+'\0',*b
+¤EQUIPEMENT_template.txt¤TEST(eq_FDJ, FDJ_VJ11_EQUIP_2_01)
+{
+    T_PAR_CompteRendu ret_PARTEST_ChargerFichier = PAR_ERROR;
+    T_PAR_CompteRendu ret_FDI_Initialiser = PAR_ERROR;
+    int a;
+    char * b;
+
+    ret_PARTEST_ChargerFichier = PARTEST_ChargerFichier((T_UInt8 *)TYPE_FIC_FDJ, (T_UInt8* )"VJ11");
+    ret_FDI_Initialiser = FDI_Initialiser(
+                                            &a,
+                                            b);
+
+    PARTEST_DechargerFichier();
+    
+    EXPECT_EQ(PAR_OK, ret_PARTEST_ChargerFichier);
+
+    EXPECT_EQ(0, a);
+    EXPECT_EQ('\0', *b);
+}
+¤
