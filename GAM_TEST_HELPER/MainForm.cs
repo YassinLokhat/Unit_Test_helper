@@ -23,6 +23,20 @@ namespace GAM_TEST_HELPER
             tbCode = new CColoredTextBox();
             gbCode.Controls.Add(tbCode);
 
+            a = new List<int>();
+            a.Add(-1);
+            try
+            {
+                string[] dim = File.ReadAllLines("layout.txt");
+                foreach (string item in dim)
+                    a.Add(int.Parse(item));
+            }
+            catch (Exception)
+            {
+                a.Clear();
+                a.AddRange(new int[] { -1, 750, 35, 75, 230, 211, 100, 15, 675, 240 });
+            }
+
             notifyIcon.Icon = this.Icon;
             notifyIcon.Visible = true;
             notifyIcon.BalloonTipTitle = "UNIT_TEST_HELPER";
@@ -52,23 +66,22 @@ namespace GAM_TEST_HELPER
             this.TopMost = cbTop.Checked;
         }
 
+        List<int> a;
         private void Panel1_SizeChanged(object sender, EventArgs e)
         {
-            int height = 750; //676 - 24;//659;
+            cbTemplate.Size = new Size(a[2] + (scContainer.Panel1.ClientSize.Width - scContainer.Panel1MinSize + a[3]), cbTemplate.Size.Height);
+            groupBox1.Size = new Size(a[4] + (scContainer.Panel1.ClientSize.Width - scContainer.Panel1MinSize + a[3]), groupBox1.Size.Height);
+            tbTypeFichierBinaire.Size = new Size(a[5] + (scContainer.Panel1.ClientSize.Width - scContainer.Panel1MinSize + a[3]), tbTypeFichierBinaire.Size.Height);
 
-            cbTemplate.Size = new Size(35 + (scContainer.Panel1.ClientSize.Width - scContainer.Panel1MinSize + 75), cbTemplate.Size.Height);
-            groupBox1.Size = new Size(230 + (scContainer.Panel1.ClientSize.Width - scContainer.Panel1MinSize + 75), groupBox1.Size.Height);
-            tbTypeFichierBinaire.Size = new Size(211 + (scContainer.Panel1.ClientSize.Width - scContainer.Panel1MinSize + 75), tbTypeFichierBinaire.Size.Height);
-
-            tbDeclarationParametres.Size = new Size(tbTypeFichierBinaire.Size.Width, 100 + (scContainer.Panel1.ClientSize.Height - height));
+            tbDeclarationParametres.Size = new Size(tbTypeFichierBinaire.Size.Width, a[6] + (scContainer.Panel1.ClientSize.Height - a[1]));
             tbNomFonction.Size = new Size(tbTypeFichierBinaire.Size.Width, tbNomFonction.Size.Height);
             tbParametres.Size = new Size(tbTypeFichierBinaire.Size.Width, tbParametres.Size.Height);
             dgvValidationSortie.Size = new Size(tbTypeFichierBinaire.Size.Width, dgvValidationSortie.Size.Height);
 
-            gbFonction.Size = new Size(groupBox1.Size.Width, scContainer.Panel1.ClientSize.Height - pButtons.Height - gbFonction.Location.Y - 15);//500 + (scContainer.Panel1.ClientSize.Height - height));
-            pButtons.Location = new Point(pButtons.Location.X, 675 + (scContainer.Panel1.ClientSize.Height - height));
-            pPanel.Size = new Size(groupBox1.Size.Width - 13, pPanel.Size.Height);
-            pPanel.Location = new Point(pPanel.Location.X, 240 + (scContainer.Panel1.ClientSize.Height - height));
+            gbFonction.Size = new Size(groupBox1.Size.Width, scContainer.Panel1.ClientSize.Height - pButtons.Height - gbFonction.Location.Y - a[7]);
+            pButtons.Location = new Point(pButtons.Location.X, a[8] + (scContainer.Panel1.ClientSize.Height - a[1]));
+            pPanel.Size = new Size(groupBox1.Size.Width - a[7], pPanel.Size.Height);
+            pPanel.Location = new Point(pPanel.Location.X, a[9] + (scContainer.Panel1.ClientSize.Height - a[1]));
         }
 
         private void TbNomFichier_Validated(object sender, EventArgs e)

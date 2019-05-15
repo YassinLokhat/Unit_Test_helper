@@ -26,3 +26,4 @@ C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GA
 C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\obj\Release\GAM_TEST_HELPER.csproj.CopyComplete
 C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\obj\Release\GAM_TEST_HELPER.exe
 C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\obj\Release\GAM_TEST_HELPER.pdb
+C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\bin\Release\layout.txt
