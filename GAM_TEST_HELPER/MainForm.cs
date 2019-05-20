@@ -348,8 +348,8 @@ namespace GAM_TEST_HELPER
             return tbNomFichier.Text.Length
                 * tbVersion.Text.Length
                 * tbTypeFichierBinaire.Text.Length
-                * nudNumeroFonction.Value
-                * nudNumeroCas.Value
+                //* nudNumeroFonction.Value
+                //* nudNumeroCas.Value
                 * tbNomFonction.Text.Length
                 != 0
                 && cbTemplate.Items.Contains(cbTemplate.Text);

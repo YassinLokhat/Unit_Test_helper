@@ -97,9 +97,8 @@ namespace GAM_TEST_HELPER
             // bCopier
             // 
             this.bCopier.Location = new System.Drawing.Point(0, 0);
-            this.bCopier.Margin = new System.Windows.Forms.Padding(4);
             this.bCopier.Name = "bCopier";
-            this.bCopier.Size = new System.Drawing.Size(145, 28);
+            this.bCopier.Size = new System.Drawing.Size(109, 23);
             this.bCopier.TabIndex = 110;
             this.bCopier.Text = "Copier et Minimiser";
             this.bCopier.UseVisualStyleBackColor = true;
@@ -107,10 +106,9 @@ namespace GAM_TEST_HELPER
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(8, 31);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(6, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(58, 17);
+            this.label1.Size = new System.Drawing.Size(44, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Fichier :";
             // 
@@ -119,166 +117,151 @@ namespace GAM_TEST_HELPER
             this.tbNomFichier.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
             this.tbNomFichier.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.CustomSource;
             this.tbNomFichier.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNomFichier.Location = new System.Drawing.Point(75, 27);
-            this.tbNomFichier.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNomFichier.Location = new System.Drawing.Point(56, 22);
             this.tbNomFichier.Name = "tbNomFichier";
-            this.tbNomFichier.Size = new System.Drawing.Size(63, 23);
+            this.tbNomFichier.Size = new System.Drawing.Size(48, 20);
             this.tbNomFichier.TabIndex = 10;
             // 
             // tbVersion
             // 
             this.tbVersion.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbVersion.Location = new System.Drawing.Point(229, 27);
-            this.tbVersion.Margin = new System.Windows.Forms.Padding(4);
+            this.tbVersion.Location = new System.Drawing.Point(172, 22);
             this.tbVersion.Name = "tbVersion";
-            this.tbVersion.Size = new System.Drawing.Size(63, 23);
+            this.tbVersion.Size = new System.Drawing.Size(48, 20);
             this.tbVersion.TabIndex = 20;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(157, 31);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(118, 25);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(64, 17);
+            this.label2.Size = new System.Drawing.Size(48, 13);
             this.label2.TabIndex = 4;
             this.label2.Text = "Version :";
             // 
             // tbNomFonction
             // 
             this.tbNomFonction.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbNomFonction.Location = new System.Drawing.Point(8, 60);
-            this.tbNomFonction.Margin = new System.Windows.Forms.Padding(4);
+            this.tbNomFonction.Location = new System.Drawing.Point(6, 49);
             this.tbNomFonction.Name = "tbNomFonction";
-            this.tbNomFonction.Size = new System.Drawing.Size(280, 23);
+            this.tbNomFonction.Size = new System.Drawing.Size(211, 20);
             this.tbNomFonction.TabIndex = 60;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(4, 41);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(3, 33);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(138, 17);
+            this.label3.Size = new System.Drawing.Size(105, 13);
             this.label3.TabIndex = 6;
             this.label3.Text = "Nom de la Fonction :";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(4, 9);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(3, 7);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(80, 17);
+            this.label4.Size = new System.Drawing.Size(62, 13);
             this.label4.TabIndex = 8;
             this.label4.Text = "Num Fonc :";
             // 
             // nudNumeroFonction
             // 
-            this.nudNumeroFonction.Location = new System.Drawing.Point(95, 6);
-            this.nudNumeroFonction.Margin = new System.Windows.Forms.Padding(4);
+            this.nudNumeroFonction.Location = new System.Drawing.Point(71, 5);
             this.nudNumeroFonction.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
             this.nudNumeroFonction.Name = "nudNumeroFonction";
-            this.nudNumeroFonction.Size = new System.Drawing.Size(47, 22);
+            this.nudNumeroFonction.Size = new System.Drawing.Size(35, 20);
             this.nudNumeroFonction.TabIndex = 40;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(159, 9);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(119, 7);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(73, 17);
+            this.label5.Size = new System.Drawing.Size(56, 13);
             this.label5.TabIndex = 10;
             this.label5.Text = "Num Cas :";
             // 
             // nudNumeroCas
             // 
-            this.nudNumeroCas.Location = new System.Drawing.Point(241, 6);
-            this.nudNumeroCas.Margin = new System.Windows.Forms.Padding(4);
+            this.nudNumeroCas.Location = new System.Drawing.Point(181, 5);
             this.nudNumeroCas.Maximum = new decimal(new int[] {
             1000,
             0,
             0,
             0});
             this.nudNumeroCas.Name = "nudNumeroCas";
-            this.nudNumeroCas.Size = new System.Drawing.Size(47, 22);
+            this.nudNumeroCas.Size = new System.Drawing.Size(35, 20);
             this.nudNumeroCas.TabIndex = 50;
             // 
             // tbTypeFichierBinaire
             // 
             this.tbTypeFichierBinaire.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbTypeFichierBinaire.Location = new System.Drawing.Point(12, 80);
-            this.tbTypeFichierBinaire.Margin = new System.Windows.Forms.Padding(4);
+            this.tbTypeFichierBinaire.Location = new System.Drawing.Point(9, 65);
             this.tbTypeFichierBinaire.Name = "tbTypeFichierBinaire";
-            this.tbTypeFichierBinaire.Size = new System.Drawing.Size(280, 23);
+            this.tbTypeFichierBinaire.Size = new System.Drawing.Size(211, 20);
             this.tbTypeFichierBinaire.TabIndex = 30;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(8, 60);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(6, 49);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(162, 17);
+            this.label6.Size = new System.Drawing.Size(121, 13);
             this.label6.TabIndex = 11;
             this.label6.Text = "Type de Fichier Binaire :";
             // 
             // tbDeclarationParametres
             // 
             this.tbDeclarationParametres.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbDeclarationParametres.Location = new System.Drawing.Point(8, 113);
-            this.tbDeclarationParametres.Margin = new System.Windows.Forms.Padding(4);
+            this.tbDeclarationParametres.Location = new System.Drawing.Point(6, 92);
             this.tbDeclarationParametres.Multiline = true;
             this.tbDeclarationParametres.Name = "tbDeclarationParametres";
             this.tbDeclarationParametres.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbDeclarationParametres.Size = new System.Drawing.Size(280, 114);
+            this.tbDeclarationParametres.Size = new System.Drawing.Size(211, 93);
             this.tbDeclarationParametres.TabIndex = 70;
             this.tbDeclarationParametres.WordWrap = false;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(4, 94);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(3, 76);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(243, 17);
+            this.label7.Size = new System.Drawing.Size(480, 13);
             this.label7.TabIndex = 13;
-            this.label7.Text = "Déclaration et Init des Param Locals :";
+            this.label7.Text = "Code de déclaration et Init des Param Locals (Ne pas déclarer les Comptes Rendus " +
+    "et les Contexts) :";
             // 
             // tbParametres
             // 
             this.tbParametres.Font = new System.Drawing.Font("Courier New", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbParametres.Location = new System.Drawing.Point(8, 18);
-            this.tbParametres.Margin = new System.Windows.Forms.Padding(4);
+            this.tbParametres.Location = new System.Drawing.Point(6, 15);
             this.tbParametres.Multiline = true;
             this.tbParametres.Name = "tbParametres";
             this.tbParametres.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.tbParametres.Size = new System.Drawing.Size(280, 110);
+            this.tbParametres.Size = new System.Drawing.Size(211, 90);
             this.tbParametres.TabIndex = 80;
             this.tbParametres.WordWrap = false;
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(7, -1);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(5, -1);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(238, 17);
+            this.label8.Size = new System.Drawing.Size(177, 13);
             this.label8.TabIndex = 15;
             this.label8.Text = "Paramètres de la Fonction  à tester :";
             // 
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(4, 133);
-            this.label9.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label9.Location = new System.Drawing.Point(3, 108);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(139, 17);
+            this.label9.Size = new System.Drawing.Size(104, 13);
             this.label9.TabIndex = 17;
             this.label9.Text = "Validation de Sortie :";
             // 
@@ -286,11 +269,9 @@ namespace GAM_TEST_HELPER
             // 
             this.gbFonction.Controls.Add(this.pPanel);
             this.gbFonction.Controls.Add(this.panel1);
-            this.gbFonction.Location = new System.Drawing.Point(13, 156);
-            this.gbFonction.Margin = new System.Windows.Forms.Padding(4);
+            this.gbFonction.Location = new System.Drawing.Point(10, 127);
             this.gbFonction.Name = "gbFonction";
-            this.gbFonction.Padding = new System.Windows.Forms.Padding(4);
-            this.gbFonction.Size = new System.Drawing.Size(309, 529);
+            this.gbFonction.Size = new System.Drawing.Size(232, 430);
             this.gbFonction.TabIndex = 20;
             this.gbFonction.TabStop = false;
             this.gbFonction.Text = "Fonction";
@@ -301,10 +282,9 @@ namespace GAM_TEST_HELPER
             this.pPanel.Controls.Add(this.label8);
             this.pPanel.Controls.Add(this.tbParametres);
             this.pPanel.Controls.Add(this.label9);
-            this.pPanel.Location = new System.Drawing.Point(4, 255);
-            this.pPanel.Margin = new System.Windows.Forms.Padding(4);
+            this.pPanel.Location = new System.Drawing.Point(3, 207);
             this.pPanel.Name = "pPanel";
-            this.pPanel.Size = new System.Drawing.Size(289, 271);
+            this.pPanel.Size = new System.Drawing.Size(217, 220);
             this.pPanel.TabIndex = 122;
             // 
             // dgvValidationSortie
@@ -317,11 +297,10 @@ namespace GAM_TEST_HELPER
             this.dgvValidationSortie.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Expected,
             this.Actual});
-            this.dgvValidationSortie.Location = new System.Drawing.Point(8, 153);
-            this.dgvValidationSortie.Margin = new System.Windows.Forms.Padding(4);
+            this.dgvValidationSortie.Location = new System.Drawing.Point(6, 124);
             this.dgvValidationSortie.Name = "dgvValidationSortie";
             this.dgvValidationSortie.ShowEditingIcon = false;
-            this.dgvValidationSortie.Size = new System.Drawing.Size(281, 117);
+            this.dgvValidationSortie.Size = new System.Drawing.Size(211, 95);
             this.dgvValidationSortie.TabIndex = 121;
             // 
             // Expected
@@ -346,10 +325,9 @@ namespace GAM_TEST_HELPER
             this.panel1.Controls.Add(this.tbNomFonction);
             this.panel1.Controls.Add(this.label5);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel1.Location = new System.Drawing.Point(4, 19);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(3, 16);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(301, 506);
+            this.panel1.Size = new System.Drawing.Size(226, 411);
             this.panel1.TabIndex = 19;
             // 
             // groupBox1
@@ -360,11 +338,9 @@ namespace GAM_TEST_HELPER
             this.groupBox1.Controls.Add(this.tbVersion);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.tbTypeFichierBinaire);
-            this.groupBox1.Location = new System.Drawing.Point(13, 37);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(10, 30);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(307, 112);
+            this.groupBox1.Size = new System.Drawing.Size(230, 91);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Fichier";
@@ -376,10 +352,9 @@ namespace GAM_TEST_HELPER
             // 
             // bGenererAjouter
             // 
-            this.bGenererAjouter.Location = new System.Drawing.Point(153, 36);
-            this.bGenererAjouter.Margin = new System.Windows.Forms.Padding(4);
+            this.bGenererAjouter.Location = new System.Drawing.Point(115, 29);
             this.bGenererAjouter.Name = "bGenererAjouter";
-            this.bGenererAjouter.Size = new System.Drawing.Size(149, 28);
+            this.bGenererAjouter.Size = new System.Drawing.Size(112, 23);
             this.bGenererAjouter.TabIndex = 100;
             this.bGenererAjouter.Text = "Générer et Ajouter";
             this.bGenererAjouter.UseVisualStyleBackColor = true;
@@ -389,10 +364,8 @@ namespace GAM_TEST_HELPER
             this.gbCode.Controls.Add(this.tbCode);
             this.gbCode.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gbCode.Location = new System.Drawing.Point(0, 0);
-            this.gbCode.Margin = new System.Windows.Forms.Padding(4);
             this.gbCode.Name = "gbCode";
-            this.gbCode.Padding = new System.Windows.Forms.Padding(4);
-            this.gbCode.Size = new System.Drawing.Size(707, 756);
+            this.gbCode.Size = new System.Drawing.Size(454, 611);
             this.gbCode.TabIndex = 102;
             this.gbCode.TabStop = false;
             this.gbCode.Text = "Code";
@@ -410,59 +383,55 @@ namespace GAM_TEST_HELPER
         '\"',
         '\'',
         '\''};
-            this.tbCode.AutoScrollMinSize = new System.Drawing.Size(31, 18);
+            this.tbCode.AutoScrollMinSize = new System.Drawing.Size(27, 14);
             this.tbCode.BackBrush = null;
-            this.tbCode.CharHeight = 18;
-            this.tbCode.CharWidth = 10;
+            this.tbCode.CharHeight = 14;
+            this.tbCode.CharWidth = 8;
             this.tbCode.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.tbCode.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))), ((int)(((byte)(180)))));
             this.tbCode.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tbCode.Font = new System.Drawing.Font("Courier New", 9.75F);
             this.tbCode.IsReplaceMode = false;
-            this.tbCode.Location = new System.Drawing.Point(4, 19);
-            this.tbCode.Margin = new System.Windows.Forms.Padding(4);
+            this.tbCode.Location = new System.Drawing.Point(3, 16);
             this.tbCode.Name = "tbCode";
             this.tbCode.Paddings = new System.Windows.Forms.Padding(0);
             this.tbCode.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(60)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
             this.tbCode.ServiceColors = ((FastColoredTextBoxNS.ServiceColors)(resources.GetObject("tbCode.ServiceColors")));
-            this.tbCode.Size = new System.Drawing.Size(699, 733);
+            this.tbCode.Size = new System.Drawing.Size(448, 592);
             this.tbCode.TabIndex = 121;
             this.tbCode.Zoom = 100;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(129, 7);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(97, 6);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(75, 17);
+            this.label10.Size = new System.Drawing.Size(57, 13);
             this.label10.TabIndex = 31;
             this.label10.Text = "Template :";
             // 
             // cbTemplate
             // 
             this.cbTemplate.FormattingEnabled = true;
-            this.cbTemplate.Location = new System.Drawing.Point(212, 4);
-            this.cbTemplate.Margin = new System.Windows.Forms.Padding(4);
+            this.cbTemplate.Location = new System.Drawing.Point(159, 3);
             this.cbTemplate.Name = "cbTemplate";
-            this.cbTemplate.Size = new System.Drawing.Size(107, 24);
+            this.cbTemplate.Size = new System.Drawing.Size(81, 21);
             this.cbTemplate.TabIndex = 5;
             // 
             // bMinimize
             // 
-            this.bMinimize.Location = new System.Drawing.Point(0, 36);
-            this.bMinimize.Margin = new System.Windows.Forms.Padding(4);
+            this.bMinimize.Location = new System.Drawing.Point(0, 29);
             this.bMinimize.Name = "bMinimize";
-            this.bMinimize.Size = new System.Drawing.Size(145, 28);
+            this.bMinimize.Size = new System.Drawing.Size(109, 23);
             this.bMinimize.TabIndex = 120;
             this.bMinimize.Text = "Minimiser";
             this.bMinimize.UseVisualStyleBackColor = true;
             // 
             // bGenerer
             // 
-            this.bGenerer.Location = new System.Drawing.Point(153, 0);
-            this.bGenerer.Margin = new System.Windows.Forms.Padding(4);
+            this.bGenerer.Location = new System.Drawing.Point(115, 0);
             this.bGenerer.Name = "bGenerer";
-            this.bGenerer.Size = new System.Drawing.Size(149, 28);
+            this.bGenerer.Size = new System.Drawing.Size(112, 23);
             this.bGenerer.TabIndex = 121;
             this.bGenerer.Text = "Nettoyer et Générer";
             this.bGenerer.UseVisualStyleBackColor = true;
@@ -473,18 +442,16 @@ namespace GAM_TEST_HELPER
             this.pButtons.Controls.Add(this.bGenerer);
             this.pButtons.Controls.Add(this.bGenererAjouter);
             this.pButtons.Controls.Add(this.bMinimize);
-            this.pButtons.Location = new System.Drawing.Point(13, 687);
-            this.pButtons.Margin = new System.Windows.Forms.Padding(4);
+            this.pButtons.Location = new System.Drawing.Point(10, 558);
             this.pButtons.Name = "pButtons";
-            this.pButtons.Size = new System.Drawing.Size(303, 64);
+            this.pButtons.Size = new System.Drawing.Size(227, 52);
             this.pButtons.TabIndex = 122;
             // 
             // scContainer
             // 
             this.scContainer.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.scContainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.scContainer.Location = new System.Drawing.Point(0, 26);
-            this.scContainer.Margin = new System.Windows.Forms.Padding(4);
+            this.scContainer.Location = new System.Drawing.Point(0, 24);
             this.scContainer.Name = "scContainer";
             // 
             // scContainer.Panel1
@@ -501,9 +468,9 @@ namespace GAM_TEST_HELPER
             // 
             this.scContainer.Panel2.Controls.Add(this.gbCode);
             this.scContainer.Panel2MinSize = 65;
-            this.scContainer.Size = new System.Drawing.Size(1045, 758);
-            this.scContainer.SplitterDistance = 329;
-            this.scContainer.SplitterWidth = 7;
+            this.scContainer.Size = new System.Drawing.Size(784, 613);
+            this.scContainer.SplitterDistance = 323;
+            this.scContainer.SplitterWidth = 5;
             this.scContainer.TabIndex = 123;
             // 
             // cbTop
@@ -511,10 +478,9 @@ namespace GAM_TEST_HELPER
             this.cbTop.AutoSize = true;
             this.cbTop.Checked = true;
             this.cbTop.CheckState = System.Windows.Forms.CheckState.Checked;
-            this.cbTop.Location = new System.Drawing.Point(13, 6);
-            this.cbTop.Margin = new System.Windows.Forms.Padding(4);
+            this.cbTop.Location = new System.Drawing.Point(10, 5);
             this.cbTop.Name = "cbTop";
-            this.cbTop.Size = new System.Drawing.Size(110, 21);
+            this.cbTop.Size = new System.Drawing.Size(84, 17);
             this.cbTop.TabIndex = 3;
             this.cbTop.Text = "Premier plan";
             this.cbTop.UseVisualStyleBackColor = true;
@@ -527,8 +493,7 @@ namespace GAM_TEST_HELPER
             this.developpéParYassinLOKHATToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
-            this.menuStrip1.Size = new System.Drawing.Size(1045, 26);
+            this.menuStrip1.Size = new System.Drawing.Size(784, 24);
             this.menuStrip1.TabIndex = 124;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -544,14 +509,14 @@ namespace GAM_TEST_HELPER
             this.minimiserToolStripMenuItem,
             this.fermerToolStripMenuItem});
             this.fichierToolStripMenuItem.Name = "fichierToolStripMenuItem";
-            this.fichierToolStripMenuItem.Size = new System.Drawing.Size(60, 22);
+            this.fichierToolStripMenuItem.Size = new System.Drawing.Size(54, 20);
             this.fichierToolStripMenuItem.Text = "Fichier";
             // 
             // nouveauToolStripMenuItem
             // 
             this.nouveauToolStripMenuItem.Name = "nouveauToolStripMenuItem";
             this.nouveauToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.N)));
-            this.nouveauToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.nouveauToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.nouveauToolStripMenuItem.Text = "Nouveau";
             this.nouveauToolStripMenuItem.Click += new System.EventHandler(this.nouveauToolStripMenuItem_Click);
             // 
@@ -559,7 +524,7 @@ namespace GAM_TEST_HELPER
             // 
             this.ouvrirToolStripMenuItem.Name = "ouvrirToolStripMenuItem";
             this.ouvrirToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.ouvrirToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.ouvrirToolStripMenuItem.Text = "Ouvrir";
             this.ouvrirToolStripMenuItem.Click += new System.EventHandler(this.ouvrirToolStripMenuItem_Click);
             // 
@@ -567,7 +532,7 @@ namespace GAM_TEST_HELPER
             // 
             this.enregistrerToolStripMenuItem.Name = "enregistrerToolStripMenuItem";
             this.enregistrerToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.enregistrerToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.enregistrerToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.enregistrerToolStripMenuItem.Text = "Enregistrer";
             this.enregistrerToolStripMenuItem.Click += new System.EventHandler(this.enregistrerToolStripMenuItem_Click);
             // 
@@ -576,7 +541,7 @@ namespace GAM_TEST_HELPER
             this.enregistrerSousToolStripMenuItem.Name = "enregistrerSousToolStripMenuItem";
             this.enregistrerSousToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.S)));
-            this.enregistrerSousToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.enregistrerSousToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.enregistrerSousToolStripMenuItem.Text = "Enregistrer sous";
             this.enregistrerSousToolStripMenuItem.Click += new System.EventHandler(this.enregistrerSousToolStripMenuItem_Click);
             // 
@@ -584,7 +549,7 @@ namespace GAM_TEST_HELPER
             // 
             this.importerUnTemplateToolStripMenuItem.Name = "importerUnTemplateToolStripMenuItem";
             this.importerUnTemplateToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.T)));
-            this.importerUnTemplateToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.importerUnTemplateToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.importerUnTemplateToolStripMenuItem.Text = "Importer un template";
             this.importerUnTemplateToolStripMenuItem.Click += new System.EventHandler(this.importerUnTemplateToolStripMenuItem_Click);
             // 
@@ -593,7 +558,7 @@ namespace GAM_TEST_HELPER
             this.exporterCommeTemplateToolStripMenuItem.Name = "exporterCommeTemplateToolStripMenuItem";
             this.exporterCommeTemplateToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)(((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Shift) 
             | System.Windows.Forms.Keys.T)));
-            this.exporterCommeTemplateToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.exporterCommeTemplateToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.exporterCommeTemplateToolStripMenuItem.Text = "Exporter comme template";
             this.exporterCommeTemplateToolStripMenuItem.Click += new System.EventHandler(this.exporterCommeTemplateToolStripMenuItem_Click);
             // 
@@ -601,7 +566,7 @@ namespace GAM_TEST_HELPER
             // 
             this.minimiserToolStripMenuItem.Name = "minimiserToolStripMenuItem";
             this.minimiserToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.M)));
-            this.minimiserToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.minimiserToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.minimiserToolStripMenuItem.Text = "Minimiser";
             this.minimiserToolStripMenuItem.Click += new System.EventHandler(this.BMinimize_Click);
             // 
@@ -609,7 +574,7 @@ namespace GAM_TEST_HELPER
             // 
             this.fermerToolStripMenuItem.Name = "fermerToolStripMenuItem";
             this.fermerToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Q)));
-            this.fermerToolStripMenuItem.Size = new System.Drawing.Size(338, 26);
+            this.fermerToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
             this.fermerToolStripMenuItem.Text = "Quitter";
             this.fermerToolStripMenuItem.Click += new System.EventHandler(this.fermerToolStripMenuItem_Click);
             // 
@@ -617,21 +582,20 @@ namespace GAM_TEST_HELPER
             // 
             this.developpéParYassinLOKHATToolStripMenuItem.Alignment = System.Windows.Forms.ToolStripItemAlignment.Right;
             this.developpéParYassinLOKHATToolStripMenuItem.Name = "developpéParYassinLOKHATToolStripMenuItem";
-            this.developpéParYassinLOKHATToolStripMenuItem.Size = new System.Drawing.Size(222, 22);
+            this.developpéParYassinLOKHATToolStripMenuItem.Size = new System.Drawing.Size(178, 20);
             this.developpéParYassinLOKHATToolStripMenuItem.Text = "Developpé par Yassin LOKHAT";
             this.developpéParYassinLOKHATToolStripMenuItem.Click += new System.EventHandler(this.developpéParYassinLOKHATToolStripMenuItem_Click);
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1045, 784);
+            this.ClientSize = new System.Drawing.Size(784, 637);
             this.Controls.Add(this.scContainer);
             this.Controls.Add(this.menuStrip1);
             this.DoubleBuffered = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
-            this.MinimumSize = new System.Drawing.Size(664, 731);
+            this.MinimumSize = new System.Drawing.Size(502, 601);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UNIT_TEST_HELPER";
