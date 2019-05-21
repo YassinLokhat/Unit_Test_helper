@@ -1,24 +1,20 @@
-FDJ¤J11¤TYPE_FIC_FDJ¤2¤1¤FDI_Initialiser¤int a;
-char * b;¤&a
-b¤0,a
-'\0',*b
-¤EQUIPEMENT_template.txt¤TEST(eq_FDJ, FDJ_VJ11_EQUIP_2_01)
+FDI¤I1¤TYPE_FIC_FDI¤1¤1¤PAR_FDI_Rechercher¤int a;¤&a¤PAR_OK,ret_{{_NOM_FICHIER_}}_{{_NOM_FONCTION_}}_CR
+0,a
+¤EQUIPEMENT_template.txt¤TEST(eq_FDI, FDI_VI1_EQUIP_1_01)
 {
     T_PAR_CompteRendu ret_PARTEST_ChargerFichier = PAR_ERROR;
-    T_PAR_CompteRendu ret_FDI_Initialiser = PAR_ERROR;
+    T_PAR_CompteRendu ret_FDI_PAR_FDI_Rechercher_CR = PAR_ERROR;
     int a;
-    char * b;
 
-    ret_PARTEST_ChargerFichier = PARTEST_ChargerFichier((T_UInt8 *)TYPE_FIC_FDJ, (T_UInt8* )"VJ11");
-    ret_FDI_Initialiser = FDI_Initialiser(
-                                            &a,
-                                            b);
+    ret_PARTEST_ChargerFichier = PARTEST_ChargerFichier((T_UInt8 *)TYPE_FIC_FDI, (T_UInt8* )"VI1");
+    ret_FDI_PAR_FDI_Rechercher_CR = PAR_FDI_Rechercher(
+                                               &a);
 
     PARTEST_DechargerFichier();
     
     EXPECT_EQ(PAR_OK, ret_PARTEST_ChargerFichier);
 
+    EXPECT_EQ(PAR_OK, ret_FDI_PAR_FDI_Rechercher_CR);
     EXPECT_EQ(0, a);
-    EXPECT_EQ('\0', *b);
 }
 ¤

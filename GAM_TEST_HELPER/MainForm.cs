@@ -152,6 +152,7 @@ namespace GAM_TEST_HELPER
                 tbDeclarationParametres.Text = "";
                 tbParametres.Text = "";
                 dgvValidationSortie.Rows.Clear();
+                dgvValidationSortie.Rows.Add(new string[] { "PAR_OK", "ret_{{_NOM_FICHIER_}}_{{_NOM_FONCTION_}}_CR" });
                 cbTemplate.Text = "";
                 tbCode.Text = "";
 
@@ -304,7 +305,7 @@ namespace GAM_TEST_HELPER
                 {
                     if (row.Cells[0].Value == null || row.Cells[0].Value.ToString() == "" || row.Cells[1].Value == null || row.Cells[1].Value.ToString() == "")
                         continue;
-                    validationsSortie += "\n\tEXPECT_EQ(" + row.Cells[0].Value + ", " + row.Cells[1].Value + ");";
+                    validationsSortie += "\n\tEXPECT_EQ(" + row.Cells[0].Value.ToString().Replace("{{_NOM_FICHIER_}}", tbNomFichier.Text).Replace("{{_NOM_FONCTION_}}", tbNomFonction.Text) + ", " + row.Cells[1].Value.ToString().Replace("{{_NOM_FICHIER_}}", tbNomFichier.Text).Replace("{{_NOM_FONCTION_}}", tbNomFonction.Text) + ");";
                 }
                 test = test.Replace("{{_VALIDATION_SORTIE_}}", validationsSortie);
 

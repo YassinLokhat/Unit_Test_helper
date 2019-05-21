@@ -27,4 +27,3 @@ C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GA
 C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\obj\Debug\GAM_TEST_HELPER.exe
 C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\obj\Debug\GAM_TEST_HELPER.pdb
 C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\bin\Debug\layout.txt
-C:\Users\ylokhat\Documents\Visual Studio 2017\Projects\_Astek\GAM_TEST_HELPER\GAM_TEST_HELPER\obj\Debug\GAM_TEST_HELPER.csprojAssemblyReference.cache

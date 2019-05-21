@@ -2,13 +2,13 @@ TEST(gam_{{_NOM_FICHIER_}}, {{_NOM_FICHIER_}}_V{{_VERSION_}}_GAM_{{_NUMERO_FONCT
 {
 	T_PAR_Contexte *pContextePar_L = NULL;
 	T_PAR_CompteRendu ret_GAMTEST_ChargerFichier = PAR_ERROR;
-	T_PAR_CompteRendu ret_PAR_{{_NOM_FICHIER_}}_CR = PAR_OK;
+	T_PAR_CompteRendu ret_{{_NOM_FICHIER_}}_{{_NOM_FONCTION_}}_CR = PAR_ERROR;
 	{{_DECLARATION_PARAMETRES_}}
 
 	ret_GAMTEST_ChargerFichier = (T_PAR_CompteRendu)GAMTEST_ChargerFichier(&pContextePar_L, (T_UInt8 *){{_TYPE_FICHIER_BINAIRE_}}, (T_UInt8* )"V{{_VERSION_}}");
 	if ((ret_GAMTEST_ChargerFichier == PAR_OK) && (pContextePar_L != NULL))
 	{ 
-		ret_PAR_{{_NOM_FICHIER_}}_CR = {{_NOM_FONCTION_}}(pContextePar_L,{{_PARAMETRES_}});
+		ret_{{_NOM_FICHIER_}}_{{_NOM_FONCTION_}}_CR = {{_NOM_FONCTION_}}(pContextePar_L,{{_PARAMETRES_}});
 
 		GAMTEST_DechargerFichier(&pContextePar_L);
 	}
